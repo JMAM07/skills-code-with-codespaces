@@ -1,4 +1,6 @@
 {
+  "postCreateCommand": ".devcontainer/postCreate.sh"
+  
   "name": "Basic Dev Environment",
   "image": "mcr.microsoft.com/devcontainers/base:debian",
   "features": {
@@ -15,5 +17,4 @@
       ]
     }
   }
-  "postCreateCommand": ".devcontainer/postCreate.sh"
 }
